@@ -1,0 +1,110 @@
+/*Seleccion universal*/
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+
+/*Selector ID*/
+#Contenedor{
+    width: 900px;
+    height: 1200px;
+    background-color: #d49e23;
+}
+
+#Encabezado{
+    height: 25%;
+    background-color: #d9bd1f;
+}
+
+#Menu{
+    height: 5%;
+    background-color: #713505;
+    display: flex;
+    align-items: center;
+}
+
+#Seccion1{
+    height: 30%;
+    background-color: #b01a;
+    border: 2px #68531e;
+    margin-bottom: 12px;
+}
+
+#Seccion2{
+    height: 30%;
+    background-color: #dcc43c;
+    border: 2px #68531e;
+    margin-top: 12px;
+}
+
+#Pie{
+    height: 10%;
+    background-color: #744607;
+    display: flex;
+    align-items: center;
+}
+
+/*Selector de clase*/
+.Encabezado1{
+    text-align: left;
+    margin-bottom: 12px;
+    margin-left: 15px;
+}
+
+.Encabezado2{
+    text-align: right;
+    margin-bottom: 12px;
+    margin-right: 15px;
+}
+
+.barraNavegacion{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    size: 22px;
+    display: block;
+    align-items: center;
+}
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 16px;
+    text-align: justify;
+    margin-right: 50%;
+    margin-left: 15px;
+}
+
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 16px;
+    text-align: justify;
+    margin-left: 50%;
+    margin-right: 15px;
+}
+
+.seccion1{
+    transform: translateX(500px) translateY(-250px);
+}
+
+.seccion2{
+    transform: translateY(-220px) translateX(150px);
+}
+
+/*Selector de etiqueta*/
+ul{
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
